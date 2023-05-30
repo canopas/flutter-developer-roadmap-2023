@@ -17,6 +17,7 @@ The Flutter Developer Roadmap 2023 includes **Practical exercises** that cover a
 
 # Table of contents
 * Useful References
+* Material Component
 
 ## Useful References
 The references provided are aimed at individuals who have no prior knowledge or experience in developing Flutter apps. They serve as a starting point for beginners in the field, providing basic knowledge that is necessary before diving into Flutter development. 
@@ -24,3 +25,53 @@ If you already have knowledge and experience in Flutter development, you may not
 * [Set up Flutter Environment](https://docs.flutter.dev/get-started/install)
 * [Dart Language](https://dart.dev/language)
 * [Version control Guideline](https://github.com/canopas/flutter-developer-roadmap/blob/main/GitGuideline.md)
+* [Layout in Flutte](https://docs.flutter.dev/ui/layout#1-select-a-layout-widget)
+* [Stateful and Stateless widget](https://docs.flutter.dev/ui/interactive#stateful-and-stateless-widgets)
+* [State management approaches in Flutter](https://docs.flutter.dev/data-and-backend/state-mgmt/options)
+
+
+# Material Component
+### Practical 1
+#### Develop UI for a Messaging application
+* Implement an app using 3 Activities - Onboard, signIn and Home Activity
+* On the onboard screen, show brief introduction to the app's features, such as messaging, voice and video calls, and file sharing.
+  - Show images, titles and subtitles to introduce app functionality.
+  - Add a button to check the next/previous features. Also, the skip button to skip the onboarding flow.
+* On the sign-in screen, allow the user to enter their email and password, and add validation to ensure the user enters a valid email address and password.
+  - Use dummy email/password to verify user input.
+* After a successful login, the user should be redirected to the Home screen.
+  - On the Home screen, show a list of chats with sender name, profile, latest message and message time.
+  - The user should not be able to go back to the login screen once redirected to the Home screen.
+  - Use dummy data for chats
+  - Add toggle button on Home screen to change the day/night theme
+* App should responsive for different resolutions.
+* Add support for day/night theme.
+* You can use any images or placeholder to make UI eye-catchy
+* App should follow material guidelines
+* Here's [UI for refrence](https://cdn.dribbble.com/userupload/3719280/file/original-5d6d206acf8adf5458091206369445f1.png?compress=1&resize=752x)
+
+### Practical 2
+#### Develop collapsing toolbar for the News application
+* Home screen should show toolbar and news content
+* The toolbar on screen should initially display the app's logo and title.
+* As the user scrolls down to read news, the toolbar should collapse to provide more space for the content.
+  - You can use any dummy text/images as article content.
+* When the user reaches the end of the news and reverses scrolls, the toolbar should re-expand and display the app's logo & title
+* You can use any images or placeholder to make UI eyecatchy
+* App should follow material guidelines
+* Here's [UI for reference](https://cdn.dribbble.com/users/663782/screenshots/3742414/media/67464fde751beb373b4c6fa962edf718.gif)
+
+### Practical 3
+#### Implement Survey application
+* App will have one activity
+* On the Home screen display a survey form
+  - Survey form should show questions, 4 options and a button for next question.
+  - Show progress as user answers the question
+* Once the survey is completed, show a pop-up message thanking the user
+  - Use the custom dialog to thank the user.
+  - Dialog will have UI to show a thanks message, image and button to complete survey
+* Asks at least 3 questions with 4 options each. 
+* App should ask users about the shopping experience. 
+* You can use any images or placeholder to make UI eye-catchy
+* App should follow material guidelines
+* Here's [UI for reference](https://cubicleninjas.com/wp-content/uploads/2021/01/NA-2021-Web-Questionnaire-3.jpg)
