@@ -27,7 +27,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * [Set up Flutter Environment](https://docs.flutter.dev/get-started/install)
 * [Dart Language](https://dart.dev/language)
 * [Version control Guideline](https://github.com/canopas/flutter-developer-roadmap/blob/main/GitGuideline.md)
-* [Layout in Flutte](https://docs.flutter.dev/ui/layout#1-select-a-layout-widget)
+* [Layout in Flutter](https://docs.flutter.dev/ui/layout#1-select-a-layout-widget)
 * [Stateful and Stateless widget](https://docs.flutter.dev/ui/interactive#stateful-and-stateless-widgets)
 * [State management approaches in Flutter](https://docs.flutter.dev/data-and-backend/state-mgmt/options)
 
@@ -35,7 +35,12 @@ If you already have knowledge and experience in Flutter development, you may not
 # Material Component
 
 ### Practical 1
-#### Develop UI for a Planner application
+#### Static UI
+* Create a Flutter application and Design Static UI(https://dribbble.com/shots/21236904-Fitness-App-Design)
+* Use Flutter's Materials design 3 to enhance your design process.
+
+### Practical 2
+#### Implement basic Navigation
 * Implement an app using two Screens - Onboard and Home Screen
 * On the onboard screen, Implement UI same as Reference 
   - User should be navigate to Home screen on Tap of button
@@ -50,7 +55,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * App should follow material guidelines
 * Here's [UI for refrence](https://dribbble.com/shots/19021013-Dayzer-Mobile-App-Design-iOS-Android-UX-UI-Designer)
 
-### Practical 2
+### Practical 3
 #### Develop collapsing toolbar for the News application
 * Home screen should show toolbar and news content
 * The toolbar on screen should initially display the app's logo and title.
@@ -61,7 +66,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * App should follow material guidelines
 * Here's [UI for reference](https://cdn.dribbble.com/users/663782/screenshots/3742414/media/67464fde751beb373b4c6fa962edf718.gif)
 
-### Practical 3
+### Practical 4
 #### Implement Survey application
 * On the Home screen display a survey form
   - Survey form should show questions, 4 options and a button for next question.
@@ -77,7 +82,7 @@ If you already have knowledge and experience in Flutter development, you may not
 
 # Navigation and Routing
 
-## Practical 4
+## Practical 5
 #### Implement Navigation for a Messaging application
 * Implement an app using 3 Screens - Onboard, signIn and Home Activity
 * On the onboard screen, show brief introduction to the app's features, such as messaging, voice and video calls, and file sharing.
@@ -98,7 +103,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * Use go_router for Navigation
 * Here's [UI for refrence](https://www.uplabs.com/posts/message-app-ui-design-d614a2fa-5f98-486d-a296-d20c1dce64f1)
 
-## Practical 5
+## Practical 6
 #### Implement Note-taking application
 * Single Screen app
   - Which allows the user to enter a note 
