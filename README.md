@@ -7,7 +7,7 @@ The Flutter Developer Roadmap 2023 includes **Practical exercises** that cover a
 
 - Before starting any practical it's important to conduct research and learn the necessary concepts.
 
-- As you progress through the practical exercises, make sure to apply the new knowledge you've gained in subsequent exercises. Try to allocate no more than 3-4 days to each practical.
+- As you progress through the practical exercises, make sure to apply the new knowledge you've gained in subsequent exercises. Try to allocate maximum 5 days to each practical.
 
 - To keep track of your progress and share your work with your team lead, create a repository on GitLab where you can upload your completed exercises for review.
 
@@ -20,6 +20,11 @@ The Flutter Developer Roadmap 2023 includes **Practical exercises** that cover a
 * Material Component
 * Navigation and Routing
 * Networking
+* State management
+* Local Storage
+* Firestore Database
+* Depenedency Injection
+* Asynchronous programming in Flutter
 
 ## Useful References
 The references provided are aimed at individuals who have no prior knowledge or experience in developing Flutter apps. They serve as a starting point for beginners in the field, providing basic knowledge that is necessary before diving into Flutter development. 
@@ -29,17 +34,17 @@ If you already have knowledge and experience in Flutter development, you may not
 * [Version control Guideline](https://github.com/canopas/flutter-developer-roadmap/blob/main/GitGuideline.md)
 * [Layout in Flutter](https://docs.flutter.dev/ui/layout#1-select-a-layout-widget)
 * [Stateful and Stateless widget](https://docs.flutter.dev/ui/interactive#stateful-and-stateless-widgets)
-* [State management approaches in Flutter](https://docs.flutter.dev/data-and-backend/state-mgmt/options)
+* [State management approaches in Flutter](https://docs.flutter.dev/data-and-backend/state-mgmt/options
+* [Design Pattern in Flutter](https://medium.flutterdevs.com/design-patterns-in-flutter-part-1-c32a3ddb00e2)
+* [Networking](https://docs.flutter.dev/data-and-backend/networking)
+* [Asynchronous programming](https://dart.dev/codelabs/async-await)
 
 
 # Material Component
 
 ### Practical 1
 #### Implement user profile UI
-* The app will use a one Activity
 * Display a user's profile picture, name, and bio. 
-* Use a placeholder for the image and  profile data.
-* Add day/night theme support
 * Here's [UI for reference](https://cdn.dribbble.com/userupload/5207044/file/original-ceb3338a4a693f6ab102298dd3745716.jpg?compress=1&resize=1024x768)
 
 ### Practical 2
