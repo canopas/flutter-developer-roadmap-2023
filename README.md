@@ -34,7 +34,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * [Version control Guideline](https://github.com/canopas/flutter-developer-roadmap/blob/main/GitGuideline.md)
 * [Layout in Flutter](https://docs.flutter.dev/ui/layout#1-select-a-layout-widget)
 * [Stateful and Stateless widget](https://docs.flutter.dev/ui/interactive#stateful-and-stateless-widgets)
-* [State management approaches in Flutter](https://docs.flutter.dev/data-and-backend/state-mgmt/options
+* [State management approaches in Flutter](https://docs.flutter.dev/data-and-backend/state-mgmt/options)
 * [Design Pattern in Flutter](https://medium.flutterdevs.com/design-patterns-in-flutter-part-1-c32a3ddb00e2)
 * [Networking](https://docs.flutter.dev/data-and-backend/networking)
 * [Asynchronous programming](https://dart.dev/codelabs/async-await)
@@ -49,7 +49,8 @@ If you already have knowledge and experience in Flutter development, you may not
 
 ### Practical 2
 #### Static UI
-* Create a Flutter application and Design Static UI(https://dribbble.com/shots/21236904-Fitness-App-Design)
+* Create a Flutter application and Design [Static UI](https://dribbble.com/shots/21236904-Fitness-App-Design)
+* App should responsive for different resolutions.
 * Use Flutter's Materials design 3 to enhance your design process.
 
 
@@ -61,7 +62,6 @@ If you already have knowledge and experience in Flutter development, you may not
   - You can use any dummy text/images as article content.
 * When the user reaches the end of the news and reverses scrolls, the toolbar should re-expand and display the app's logo & title
 * You can use any images or placeholder to make UI eyecatchy
-* App should follow material guidelines
 * Here's [UI for reference](https://cdn.dribbble.com/users/663782/screenshots/3742414/media/67464fde751beb373b4c6fa962edf718.gif)
 
 
@@ -76,7 +76,6 @@ If you already have knowledge and experience in Flutter development, you may not
 * Asks at least 3 questions with 4 options each. 
 * App should ask users about the shopping experience. 
 * You can use any images or placeholder to make UI eye-catchy
-* App should follow material guidelines
 * Here's [UI for reference](https://cubicleninjas.com/wp-content/uploads/2021/01/NA-2021-Web-Questionnaire-3.jpg)
 
 ## Practical 5
@@ -122,10 +121,8 @@ If you already have knowledge and experience in Flutter development, you may not
   - The user should not be able to go back to the login screen once redirected to the Home screen.
   - Add toggle button on Home screen to change the day/night theme
 * App should responsive for different resolutions.
-* Add support for day/night theme.
 * You can use any images or placeholder to make UI eye-catchy
-* App should follow material guidelines
-* Use go_router for Navigation
+* Use [go_router](https://pub.dev/packages/go_router) for Navigation
 * Here's [UI for refrence](https://www.uplabs.com/posts/message-app-ui-design-d614a2fa-5f98-486d-a296-d20c1dce64f1)
 
 
