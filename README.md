@@ -31,7 +31,7 @@ The references provided are aimed at individuals who have no prior knowledge or 
 If you already have knowledge and experience in Flutter development, you may not need to refer to the provided resources. 
 * [Set up Flutter Environment](https://docs.flutter.dev/get-started/install)
 * [Dart Language](https://dart.dev/language)
-* [Version control Guideline](https://github.com/canopas/flutter-developer-roadmap/blob/main/GitGuideline.md)
+* [Version control with Git](https://www.udacity.com/course/version-control-with-git--ud123)
 * [Layout in Flutter](https://docs.flutter.dev/ui/layout#1-select-a-layout-widget)
 * [Stateful and Stateless widget](https://docs.flutter.dev/ui/interactive#stateful-and-stateless-widgets)
 * [State management approaches in Flutter](https://docs.flutter.dev/data-and-backend/state-mgmt/options)
