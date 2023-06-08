@@ -302,7 +302,7 @@ If you already have knowledge and experience in Flutter development, you may not
 
 # FireStore Database
 
-### Practical 19
+### Practical 20
 #### Develop EmployeeHub application
 * Build app using Google-sign-in
 * The application shouls have main entry point- Sign-in Sceen
@@ -321,7 +321,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * Use Firestore to store data
 * Once user sign in successfully, then redirect user to home screen without asking for authentication.
 
-### Practical 20
+### Practical 21
 #### Implement offline-first StoreMate product application
 * GET API - https://fakestoreapi.com/products
 * On Home screen
@@ -344,7 +344,7 @@ If you already have knowledge and experience in Flutter development, you may not
 
 # Streams
 
-### Practical 21
+### Practical 22
 #### Implement count-down timer application using Stream
 * Build app using one Screen
 * On Home screen
@@ -356,7 +356,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * Also play sound and vibrate device on timer completes.
 * Write Unit test.
 
-### Practical 22
+### Practical 23
 #### Implement a VocabVault app
 * Allow users to search for the definition of any word in the English language.
 * On the Home screen
@@ -370,7 +370,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * Write Unit test for viewModel.
   
   
-### Practical 23
+### Practical 24
 #### Create a Contact Keeper application.
 * Build an app with one screen.
 * On the Home screen
