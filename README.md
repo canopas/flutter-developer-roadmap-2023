@@ -48,11 +48,10 @@ If you already have knowledge and experience in Flutter development, you may not
 * Here's [UI for reference](https://cdn.dribbble.com/userupload/5207044/file/original-ceb3338a4a693f6ab102298dd3745716.jpg?compress=1&resize=1024x768)
 
 ### Practical 2
-#### Static UI
+#### Design fitness app
 * Create a Flutter application and Design [Static UI](https://dribbble.com/shots/21236904-Fitness-App-Design)
 * App should responsive for different resolutions.
 * Use Flutter's Materials design 3 to enhance your design process.
-
 
 ### Practical 3
 #### Develop collapsing toolbar for the News application
@@ -60,10 +59,9 @@ If you already have knowledge and experience in Flutter development, you may not
 * The toolbar on screen should initially display the app's logo and title.
 * As the user scrolls down to read news, the toolbar should collapse to provide more space for the content.
   - You can use any dummy text/images as article content.
-* When the user reaches the end of the news and reverses scrolls, the toolbar should re-expand and display the app's logo & title
+* When the user reaches the end of the news and reverses scrolls, the toolbar should re-expand and display the app's logo & title.
 * You can use any images or placeholder to make UI eyecatchy
 * Here's [UI for reference](https://cdn.dribbble.com/users/663782/screenshots/3742414/media/67464fde751beb373b4c6fa962edf718.gif)
-
 
 ### Practical 4
 #### Implement Survey application
@@ -72,10 +70,11 @@ If you already have knowledge and experience in Flutter development, you may not
   - Show progress as user answers the question
 * Once the survey is completed, show a pop-up message thanking the user
   - Use the Alert dialog to thank the user.
-  - Dialog will have UI to show a thanks message, image and button to complete survey
+  - Dialog will have UI to show a thanks message, image and button to complete survey.
 * Asks at least 3 questions with 4 options each. 
 * App should ask users about the shopping experience. 
-* You can use any images or placeholder to make UI eye-catchy
+* Use TabView to display questions.
+* You can use any images or placeholder to make UI eye-catchy.
 * Here's [UI for reference](https://cubicleninjas.com/wp-content/uploads/2021/01/NA-2021-Web-Questionnaire-3.jpg)
 
 ## Practical 5
@@ -87,23 +86,22 @@ If you already have knowledge and experience in Flutter development, you may not
 * The application should have the ability to maintain the state of the TextField field, even after the device is rotated. 
 * This means that when the user rotates the device, the TextField field should retain its previous contents, and the user should be able to continue editing the note without losing any data.
 
-
 # Navigation and Routing
 
 ### Practical 6
-#### Implement Basic navigation
+#### Implement Task App 
 * Implement an app using two Screens - Onboard and Home Screen
 * On the onboard screen, Implement UI same as Reference 
   - User should be navigate to Home screen on Tap of button
 * On the Home screen, Implement the UI same as Reference without bottom navigation bar.
   - Use dummy image for the persons.
-  - Add Floating Action Button on the screen
+  - Add Floating Action Button on the screen.
 * On tap of Floating action button, Open modal bottom sheet.
   - On the modal bottom sheet, Impleemnt UI same as Reference.
   - The user should be able to dismiss it by swiping down or on tap of close button
 * App should responsive for different resolutions.
-* You can use any images or placeholder to make UI eye-catchy
-* App should follow material guidelines
+* You can use any images or placeholder to make UI eye-catchy.
+* App should follow material guidelines.
 * Here's [UI for refrence](https://dribbble.com/shots/19021013-Dayzer-Mobile-App-Design-iOS-Android-UX-UI-Designer)
 
 ## Practical 7
@@ -121,16 +119,28 @@ If you already have knowledge and experience in Flutter development, you may not
   - The user should not be able to go back to the login screen once redirected to the Home screen.
   - Add toggle button on Home screen to change the day/night theme
 * App should responsive for different resolutions.
-* You can use any images or placeholder to make UI eye-catchy
-* Use [go_router](https://pub.dev/packages/go_router) for Navigation
+* You can use any images or placeholder to make UI eye-catchy.
+* Use [go_router](https://pub.dev/packages/go_router) for Navigation.
 * Here's [UI for refrence](https://www.uplabs.com/posts/message-app-ui-design-d614a2fa-5f98-486d-a296-d20c1dce64f1)
 
 
+## Practical 8
+#### Implement Color Pallate App for web.
+* Implement an app using Bottom navigation bar with Two tabs: Home and Favorite
+* On the Home screen,
+- Display a GridList of multiple color pallate
+- By Clicking on the pallate, User should be navigate to pallate detail screen
+* On pallate Detail screen,
+- Show a Container with particular color and add button to favotite/unfavorite it.
+* On favorite screen,
+- Show Favourite pallate in list 
+- Use Navigator 2.0 for navigation.
+* You can use any colors to make UI eye-catchy
+* Here's [UI for Reference](https://www.pinterest.com/pin/844706473831200541)
 
 # Networking 
 
-
-### Practical 8
+### Practical 9
 #### Implement OnlineUserDirectory
 * The app will have two screens
   - Main home screen should show list of users, retrieved from API.
@@ -143,8 +153,7 @@ If you already have knowledge and experience in Flutter development, you may not
   - GET Api Url : https://jsonplaceholder.typicode.com/albums?userId=1
 * Use http for networking
 
-
-### Practical 9
+### Practical 10
 #### Develop RecipeLister application
 * Implement  app with two Screens - Home & detail fragment
 * On the Home fragment add RecyclerView to display the list of recipes.
@@ -152,11 +161,10 @@ If you already have knowledge and experience in Flutter development, you may not
   - Tapping a recipe should open Detail Fragment.
 * On the Detail fragment show full recipe detail with recipe image and description
   - Add a back button to navigate back to the list of recipes.
-* Use dummy data for recipes
+*  GET Api Url: https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/479101/information
 * Use Dio for networking
 
-
-### Practical 10
+### Practical 11
 #### Develop ImageSaver application
 * Allow users to download an image from a given URL, display the image on the screen, and store the downloaded image file in the device's internal storage. 
 * The app will have a one Screen
@@ -168,44 +176,29 @@ If you already have knowledge and experience in Flutter development, you may not
   - Add a button to save downloaded images in Gallery.
 * Use Retrofit for networking
 
-### Practical 11
+### Practical 12
 #### Implement Drink Explorer
 * Allow users to search for their favourite mocktail detail.
-* The app will have one Activity
+* The app will have one Screen
   - Add a search bar that allows users to search for mocktails by name
   - GET Api Url : https://www.thecocktaildb.com/api/json/v1/1/search.php?i={mocktail}
   - Default search text should be `mocktail`. That means initially showing `Mocktail` in the search bar and fetching `mocktail` using API
 * When the user taps on a mocktail, the application should display the ingredients and detail of mocktail. 
-  - Use placeholder and dummy data if required
-* Use MVVM app architecture
-
+  - Use dummy data if required
 
  ### State Management
 
-
-### Practical 12
+### Practical 13
 #### Implement MovieDirectory Application
 * The app should have Persistant bottom navigationbar with two tabs: Home and favourite
 * On home screen, 
-- Show a List of movies.
-- Use GridView to show a list of movies
-- Show movies poster image in the list including name 
-- Get Api url: (https://netflix54.p.rapidapi.com)
-- On tap of movie, display all details of movie on the next screen with favourite button.
+  - Show a List of movies in GridView
+  - Show movies poster image in the list including name 
+  - Get Api url: (https://netflix54.p.rapidapi.com)
+  - On tap of movie, display all details of movie on the next screen with favourite button.
 * On the Favourite screen,
-- Show a list of movie that has been aded as favourite.
-- Add button to remove it from favourites.
-*  Use Provider for State Management and go_router for navigation
-
-### Practical 13
-#### Develop the TalkEasy application
-* The app will send and receive messages between two Screens. 
-* The app will use two Screens - Sender & Receiver Screens.
-* The Sender Screen should have an edit text and a send button
-  - When the user enters a message and clicks on the send button, open Receiver screen and show the message recieved from Sender screen.
-* The Receiver Screen should have an edit text and a reply button
-  - When the user enters a reply message and clicks on the reply button, the replied message should be sent back to the Sender screen and displayed in a text view. 
-  - Use riverpod for state management
+  - Show a list of movie that has been added as favourite and Add button to remove it from favourites.
+*  Use Provider for State Management and go_router for navigation.
 
 ### Practical 14
 #### Implement University directory application
@@ -213,72 +206,11 @@ If you already have knowledge and experience in Flutter development, you may not
 * On Home screen
   - Add a dropdown to select the country
   - When a country is selected, display a list of universities located in that country from API.
-* Use getIt for dependency injection 
 * GET Request API - http://universities.hipolabs.com/search?country={country name}
-* Use flutter_bloc for state management
+* Use flutter_bloc for state management.
 
-
-## Local Storage
 
 ### Practical 15
-#### Develop Protasker application
-* The App will have Three screens: Login, home and detail screens
-* On the Home screen,
-- Show a list of tasks with subtask and time of creation.
-- Screen should have a Fab button to add a new task. 
-- Add button on cell, so user can marked it as complete/incomplete.
-- On the cell swipe, show delete option and allow user to delete it on click of delete.
-- On the appbar, display a summary of the number of tasks that are pending.
-- On click of cell, redirect to Task detail screen.
-* On Detail screen,
-- allow user to edit this task and subtask.
-- add button to save the updated data.
-* Use sq_lite to store data
-* Display data from SQLite on the home screen.
-* Use Riverpod for state management.
-
-### Practical 16
-#### Develop MathQuest quiz application
-* The app will have one quiz Screen
-* The home Sceen be an entry point of the app
-  - This should provide an introduction to the quiz and a button to start the quiz. 
-* The quiz should ask 10 questions, one at a time, and provide four answer options for each question. 
-  - On click of the next button highlight the correct/wrong answer and show the next question
-  - Show progress as the user answers the questions
-* After the user answers all questions, the app should display a result view
-  - Which shows the number of correct answers and the total number of questions. 
-  - Show the excellence level based on the score such as poor, good and very good. 
-  - Add a button to restart the quiz so that the user can play again.
-* Implement  day/night theme in the Quiz app
-* You can use images and placeholders to build eye-catchy UI
-* Here's [UI for reference](https://cdn.dribbble.com/users/2469034/screenshots/8210470/media/f02da6249ee8c25f187432c73d4eec27.png)
-
-## FireStore Database
-
-### Practical 17
-#### Develop EmployeeHub application
-* Build app using Google-sign-in
-* The application shouls have main entry point- Sign-in Sceen
-* On Sign-in screen
-- This should Display Image,introduction content and **SIgn in with Google** Button.
-- On Click of button, authenticate user with google and firebase authentication.
-- After successful sign in, navigate user to home screen.
-* The application should display a list of employees on the home screen 
-  - Show basic details including their name and job title. 
-* When a user clicks on an employee from the list, the application should display their full details
-  - including their contact information, job title, and other important information. 
-* The user should be able to add new employees to the directory by entering their basic information and saving it locally. 
-  - Save employee name, email, contact info, job title, address, DOB and blood group etc.
-* Additionally, the user should be able to update an employee's information by selecting them from the employee list and editing their details.
-* Finally, an employee should be deleted by swiping to delete from the home screen
-* Use Firestore to store data
-* Once user sign in successfully, then redirect user to home screen without asking for authentication.
-
-
-## Depenedency Injection
-
-
-### Practical 18
 #### Develop a Travel application
 * Implement the app with three screens.
 * Home screen should have a bottom bar with 3 tabs: Destinations, Search, and Settings. 
@@ -293,10 +225,60 @@ If you already have knowledge and experience in Flutter development, you may not
   - If the user scrolled to the bottom of the destinations screen, it should preserve the scroll state across the tab change.
   - If a user searches for something on the search screen, the search result should be there when navigating to the search tab from other tabs.
   - If the user changed the setting's toggle, it should stay as it is when the user navigate between the tabs.
-* Use injectable with get_it for dependency Injection
+* Use riverpod for state management.
 
+## Depenedency Injection
 
-### Practical 19
+### Practical 16
+#### Create My Journal application
+* Enable users to Add their daily thoughts, feelings, experiences, and ideas. 
+* The app will have a one Screen
+  - Show user's thoughts in Grid
+  - Add TextField to take user input
+  - Add a button to save the user's thought
+  - Store inputs in state Manager class as state
+* User should be able to add multiple thoughts.
+* The application should be able to persist data even when there is a configuration change, such as screen rotation.
+* Use Redux for state management.
+
+### Practical 17
+#### Develop MathQuest quiz application
+* The app will have one quiz Screen
+* The home Sceen be an entry point of the app
+  - This should provide an introduction to the quiz and a button to start the quiz. 
+* The quiz should ask 10 questions, one at a time, and provide four answer options for each question. 
+  - On click of the next button highlight the correct/wrong answer and show the next question
+  - Show progress as the user answers the questions
+* After the user answers all questions, the app should display a result view
+  - Which shows the number of correct answers and the total number of questions. 
+  - Show the excellence level based on the score such as poor, good and very good. 
+  - Add a button to restart the quiz so that the user can play again.
+* Implement  day/night theme in the Quiz app
+* You can use any state management library for state management and image to build eye-catchy UI
+* Use injectable and getIt for Dependency Injection
+* Here's [UI for reference](https://cdn.dribbble.com/users/2469034/screenshots/8210470/media/f02da6249ee8c25f187432c73d4eec27.png)
+* Write unit test.
+
+## Local Storage
+
+### Practical 18
+#### Develop Protasker application
+* The App will have Three screens: Login, home and detail screens
+* On the Home screen,
+ - Show a list of tasks with subtask and time of creation.
+ - Screen should have a Fab button to add a new task. 
+ - Add button on cell, so user can marked it as complete/incomplete.
+ - On the cell swipe, show delete option and allow user to delete it on click of delete.
+ - On the appbar, display a summary of the number of tasks that are pending.
+ - On click of cell, redirect to Task detail screen.
+* On Detail screen,
+ - allow user to edit this task and subtask.
+ - add button to save the updated data.
+* Use sq_lite to store data
+* Display data from SQLite on the home screen.
+* You can use any state management library.
+
+ ### Practical 19
 #### Develop Authentify
 * An application that takes user credentials and basic information of a user and navigates to the home screen after a successful login.
 * The app will have one Activity
@@ -315,7 +297,29 @@ If you already have knowledge and experience in Flutter development, you may not
   - Clear user session on logout
   - Until the user logs out app should show the home screen.
   - When the user clicks the logout/delete user button, the app should clear/delete the user session and navigate back to the login screen.
+  - Use flutter_bloc for state management
+  - write unit test for Bloc
 
+## FireStore Database
+
+### Practical 19
+#### Develop EmployeeHub application
+* Build app using Google-sign-in
+* The application shouls have main entry point- Sign-in Sceen
+* On Sign-in screen
+- This should Display Image,introduction content and **SIgn in with Google** Button.
+- On Click of button, authenticate user with google and firebase authentication.
+- After successful sign in, navigate user to home screen.
+* The application should display a list of employees on the home screen 
+  - Show basic details including their name and job title. 
+* When a user clicks on an employee from the list, the application should display their full details
+  - including their contact information, job title, and other important information. 
+* The user should be able to add new employees to the directory by entering their basic information and saving it locally. 
+  - Save employee name, email, contact info, job title, address, DOB and blood group etc.
+* Additionally, the user should be able to update an employee's information by selecting them from the employee list and editing their details.
+* Finally, an employee should be deleted by swiping to delete from the home screen
+* Use Firestore to store data
+* Once user sign in successfully, then redirect user to home screen without asking for authentication.
 
 ### Practical 20
 #### Implement offline-first StoreMate product application
@@ -336,8 +340,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * Add swipe-to-delete functionality to remove products from local storage
 * Add swipe-to-refresh functionality to refresh the local database with remote data
 * You can use any state management library
-* Add unit test business logic
-
+* Add unit test.
 
 ## Asynchronous In Flutter
 
@@ -350,8 +353,8 @@ If you already have knowledge and experience in Flutter development, you may not
   - Show remaining & elapsed time 
 * The user should be able to set the duration of the timer and start it. 
 * When the timer ends, the app should display a notification to indicate that the time is up.
-* Also play sound and vibrate device on timer completes
-* Write Unit test for viewModel
+* Also play sound and vibrate device on timer completes.
+* Write Unit test.
 
 ### Practical 22
 #### Implement a VocabVault app
@@ -360,16 +363,16 @@ If you already have knowledge and experience in Flutter development, you may not
   - Users should be able to search for a word by typing it into a search bar
   - App should display as user type in the search view
   - The app should display the word's definition along with pronunciations, parts of speech, examples, and synonyms.
-  - Add option to play pronunciations of word
-* Make sure the app will not make unnecessary API calls while typing in search view
-* Use Streambuilder to render UI
+  - Add option to play pronunciations of word.
+* Make sure the app will not make unnecessary API calls while typing in search view.
+* Use Streambuilder to render UI.
 * API - https://api.dictionaryapi.dev/api/v2/entries/en/<word>
-* Write Unit test for viewModel
+* Write Unit test for viewModel.
   
   
 ### Practical 23
 #### Create a Contact Keeper application.
-* Build an app using one activity
+* Build an app with one screen.
 * On the Home screen
   - Show all Contacts on the home screen
     - Show name, phone number and profile
@@ -381,6 +384,6 @@ If you already have knowledge and experience in Flutter development, you may not
   - Add option to delete contact
 * The app should also update contacts in real-time, so changes made by one user are reflected across all devices.
 * Use Firestore to store contact details.
-* Use rx_dart for state management
-* Write Unit test for viewmodel
+* Use rx_dart for state management.
+* Write Unit test.
 
