@@ -1,6 +1,6 @@
 <h1 align="center">Flutter Developer Roadmap 2023</h1>
 
-![alt text](https://github.com/canopas/Flutter-developer-roadmap-2023/blob/main/Flutter-developer-roadmap-header-image.jpeg)
+![alt text](https://github.com/canopas/flutter-developer-roadmap-2023/blob/main/Flutter-developer-roadmap-header-image%20(1).jpeg)
 
 The Flutter Developer Roadmap 2023 includes **Practical exercises** that cover all the essential concepts used in day-to-day development.
 # Guidelines
