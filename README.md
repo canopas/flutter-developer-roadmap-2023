@@ -186,7 +186,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * When the user taps on a mocktail, the application should display the ingredients and detail of mocktail. 
   - Use dummy data if required
 
- ### State Management
+ # State Management
 
 ### Practical 13
 #### Implement MovieDirectory Application
@@ -227,7 +227,7 @@ If you already have knowledge and experience in Flutter development, you may not
   - If the user changed the setting's toggle, it should stay as it is when the user navigate between the tabs.
 * Use riverpod for state management.
 
-## Depenedency Injection
+# Depenedency Injection
 
 ### Practical 16
 #### Create My Journal application
@@ -259,7 +259,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * Here's [UI for reference](https://cdn.dribbble.com/users/2469034/screenshots/8210470/media/f02da6249ee8c25f187432c73d4eec27.png)
 * Write unit test.
 
-## Local Storage
+# Local Storage
 
 ### Practical 18
 #### Develop Protasker application
@@ -278,7 +278,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * Display data from SQLite on the home screen.
 * You can use any state management library.
 
- ### Practical 19
+### Practical 19
 #### Develop Authentify
 * An application that takes user credentials and basic information of a user and navigates to the home screen after a successful login.
 * The app will have one Activity
@@ -300,7 +300,7 @@ If you already have knowledge and experience in Flutter development, you may not
   - Use flutter_bloc for state management
   - write unit test for Bloc
 
-## FireStore Database
+# FireStore Database
 
 ### Practical 19
 #### Develop EmployeeHub application
@@ -342,7 +342,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * You can use any state management library
 * Add unit test.
 
-## Asynchronous In Flutter
+# Streams
 
 ### Practical 21
 #### Implement count-down timer application using Stream
