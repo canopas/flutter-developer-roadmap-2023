@@ -106,7 +106,7 @@ If you already have knowledge and experience in Flutter development, you may not
 
 ## Practical 7
 #### Implement Navigation for a Messaging application
-* Implement an app using 3 Screens - Onboard, signIn and Home Activity
+* Implement an app using 3 Screens - Onboard, signIn and Home.
 * On the onboard screen, show brief introduction to the app's features, such as messaging, voice and video calls, and file sharing.
   - Show images, titles and subtitles to introduce app functionality.
   - Add a button to check the next/previous features. Also, the skip button to skip the onboarding flow.
