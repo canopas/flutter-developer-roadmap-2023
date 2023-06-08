@@ -117,7 +117,6 @@ If you already have knowledge and experience in Flutter development, you may not
   - Implement Three screen for each tab
   - You can add any eye catchy UI 
   - The user should not be able to go back to the login screen once redirected to the Home screen.
-  - Add toggle button on Home screen to change the day/night theme
 * App should responsive for different resolutions.
 * You can use any images or placeholder to make UI eye-catchy.
 * Use [go_router](https://pub.dev/packages/go_router) for Navigation.
