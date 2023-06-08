@@ -154,7 +154,7 @@ If you already have knowledge and experience in Flutter development, you may not
 
 ### Practical 10
 #### Develop RecipeLister application
-* Implement  app with two Screens - Home & detail fragment
+* Implement  app with two Screens - Home & detail.
 * On the Home fragment add RecyclerView to display the list of recipes.
   - Each list item should show the recipe name and a short description.
   - Tapping a recipe should open Detail Fragment.
