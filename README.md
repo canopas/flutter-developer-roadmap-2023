@@ -83,7 +83,7 @@ If you already have knowledge and experience in Flutter development, you may not
   - Which allows the user to enter a note 
   - Use EditText to take input from the user.
   - Add a button to reset the note.
-* The application should have the ability to maintain the state of the TextField field, even after the device is rotated. 
+* The application should have the ability to maintain the state of the TextField field, even after the device is rotated or in background. 
 * This means that when the user rotates the device, the TextField field should retain its previous contents, and the user should be able to continue editing the note without losing any data.
 
 # Navigation and Routing
