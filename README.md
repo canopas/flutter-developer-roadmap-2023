@@ -155,10 +155,10 @@ If you already have knowledge and experience in Flutter development, you may not
 ### Practical 10
 #### Develop RecipeLister application
 * Implement  app with two Screens - Home & detail.
-* On the Home fragment add RecyclerView to display the list of recipes.
+* On the Home Screen, display the list of recipes.
   - Each list item should show the recipe name and a short description.
-  - Tapping a recipe should open Detail Fragment.
-* On the Detail fragment show full recipe detail with recipe image and description
+  - Tapping a recipe should open Detail Screen.
+* On the Detail Screen show full recipe detail with recipe image and description
   - Add a back button to navigate back to the list of recipes.
 *  GET Api Url: https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/479101/information
 * Use Dio for networking
