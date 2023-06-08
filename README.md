@@ -16,15 +16,16 @@ The Flutter Developer Roadmap 2023 includes **Practical exercises** that cover a
 - As you work on each practical exercise, move the corresponding ticket from the "To-Do" queue to the "Done" queue to keep track of your progress. This will help you stay focused and motivated as you work through the roadmap.
 
 # Table of contents
-* Useful References
-* Material Component
-* Navigation and Routing
-* Networking
-* State management
-* Depenedency Injection
-* Local Storage
-* Firestore Database
-* Stream 
+* Useful References()
+* Material Component()
+* Navigation and Routing()
+* Networking()
+* State management()
+* Depenedency Injection()
+* Local Storage()
+* Stream()
+* Firestore Database()
+
 
 ## Useful References
 The references provided are aimed at individuals who have no prior knowledge or experience in developing Flutter apps. They serve as a starting point for beginners in the field, providing basic knowledge that is necessary before diving into Flutter development. 
@@ -89,22 +90,24 @@ If you already have knowledge and experience in Flutter development, you may not
 # Navigation and Routing
 
 ### Practical 6
-#### Implement Task App 
-* Implement an app using two Screens - Onboard and Home Screen
-* On the onboard screen, Implement UI same as Reference 
-  - User should be navigate to Home screen on Tap of button
-* On the Home screen, Implement the UI same as Reference without bottom navigation bar.
-  - Use dummy image for the persons.
+#### Implement LeaveTracker App 
+* Implement an app with two screens: Home and Apply leave
+* On the Home screen, Implement UI same as Reference
+  - Use dummy image for the person.
   - Add Floating Action Button on the screen.
-* On tap of Floating action button, Open modal bottom sheet.
-  - On the modal bottom sheet, Impleemnt UI same as Reference.
-  - The user should be able to dismiss it by swiping down or on tap of close button
-* App should responsive for different resolutions.
-* You can use any images or placeholder to make UI eye-catchy.
+  -  On tap of Floating action button, redirect user to Apply Leave Screen.
+* On Apply leave screen,
+  - It should contain Textfields for user input.
+  - Add textfieds so user can enter start date, end date and reason for the leave
+  - Add button for Apply leave and User should be navigate back to home screen by tapping button.
+* Show Applied leave on home screen. 
+  * App should responsive for different resolutions.
+* You can use dummy data and any images to make UI eye-catchy.
 * App should follow material guidelines.
-* Here's [UI for refrence](https://dribbble.com/shots/19021013-Dayzer-Mobile-App-Design-iOS-Android-UX-UI-Designer)
+* Here's [UI for refrence](https://github.com/canopas/flutter-developer-roadmap-2023/files/11687291/leaveTracher_ui.zip)
 
-## Practical 7
+
+### Practical 7
 #### Implement Navigation for a Messaging application
 * Implement an app using 3 Screens - Onboard, signIn and Home.
 * On the onboard screen, show brief introduction to the app's features, such as messaging, voice and video calls, and file sharing.
@@ -123,17 +126,21 @@ If you already have knowledge and experience in Flutter development, you may not
 * Here's [UI for refrence](https://www.uplabs.com/posts/message-app-ui-design-d614a2fa-5f98-486d-a296-d20c1dce64f1)
 
 
-## Practical 8
+### Practical 8
 #### Implement Color Pallate App for web.
-* Implement an app using Bottom navigation bar with Two tabs: Home and Favorite
-* On the Home screen,
+* Implement an app using Bottom navigation bar with Two tabs: Home and Pallate
+* On Home screen,
+  - Displays a list containing list tiles, each indicating a number in ascending order up to 100.
+  - Each tile should be tapable and User should be navigate to It's detail screen
+  * On detail screen
+    - Show a number of list tile that is selected by user.
+  - User should be able to redirect to Detail screen by passing number in url of web
+* On the Pallate screen,
   - Display a GridList of multiple color pallate
   - By Clicking on the pallate, User should be navigate to pallate detail screen
-* On pallate Detail screen,
-  - Show a Container with particular color and add button to favotite/unfavorite it.
-* On favorite screen,
-  - Show Favourite pallate in list 
-  - Use Navigator 2.0 for navigation.
+  * On pallate Detail screen,
+      - Show a Container with particular color and add button to favotite/unfavorite it.
+* Use Navigator 2.0 for navigation.
 * You can use any colors to make UI eye-catchy
 * Here's [UI for Reference](https://www.pinterest.com/pin/844706473831200541)
 
@@ -161,6 +168,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * On the Detail Screen show full recipe detail with recipe image and description
   - Add a back button to navigate back to the list of recipes.
 *  GET Api Url: https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/479101/information
+*  To access RapidAPI, log in or create an account to obtain an API key.
 * Use Dio for networking
 
 ### Practical 11
@@ -207,7 +215,6 @@ If you already have knowledge and experience in Flutter development, you may not
   - When a country is selected, display a list of universities located in that country from API.
 * GET Request API - http://universities.hipolabs.com/search?country={country name}
 * Use flutter_bloc for state management.
-
 
 ### Practical 15
 #### Develop a Travel application
@@ -299,28 +306,8 @@ If you already have knowledge and experience in Flutter development, you may not
   - Use flutter_bloc for state management
   - write unit test for Bloc
 
-# FireStore Database
 
 ### Practical 20
-#### Develop EmployeeHub application
-* Build app using Google-sign-in
-* The application shouls have main entry point- Sign-in Sceen
-* On Sign-in screen
-- This should Display Image,introduction content and **SIgn in with Google** Button.
-- On Click of button, authenticate user with google and firebase authentication.
-- After successful sign in, navigate user to home screen.
-* The application should display a list of employees on the home screen 
-  - Show basic details including their name and job title. 
-* When a user clicks on an employee from the list, the application should display their full details
-  - including their contact information, job title, and other important information. 
-* The user should be able to add new employees to the directory by entering their basic information and saving it locally. 
-  - Save employee name, email, contact info, job title, address, DOB and blood group etc.
-* Additionally, the user should be able to update an employee's information by selecting them from the employee list and editing their details.
-* Finally, an employee should be deleted by swiping to delete from the home screen
-* Use Firestore to store data
-* Once user sign in successfully, then redirect user to home screen without asking for authentication.
-
-### Practical 21
 #### Implement offline-first StoreMate product application
 * GET API - https://fakestoreapi.com/products
 * On Home screen
@@ -343,7 +330,7 @@ If you already have knowledge and experience in Flutter development, you may not
 
 # Streams
 
-### Practical 22
+### Practical 21
 #### Implement count-down timer application using Stream
 * Build app using one Screen
 * On Home screen
@@ -355,7 +342,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * Also play sound and vibrate device on timer completes.
 * Write Unit test.
 
-### Practical 23
+### Practical 22
 #### Implement a VocabVault app
 * Allow users to search for the definition of any word in the English language.
 * On the Home screen
@@ -367,8 +354,28 @@ If you already have knowledge and experience in Flutter development, you may not
 * Use Streambuilder to render UI.
 * API - https://api.dictionaryapi.dev/api/v2/entries/en/<word>
 * Write Unit test for viewModel.
-  
-  
+    
+# FireStore Database
+
+### Practical 23
+#### Develop EmployeeHub application
+* Build app using Google-sign-in
+* The application shouls have main entry point- Sign-in Sceen
+* On Sign-in screen
+- This should Display Image,introduction content and **SIgn in with Google** Button.
+- On Click of button, authenticate user with google and firebase authentication.
+- After successful sign in, navigate user to home screen.
+* The application should display a list of employees on the home screen 
+  - Show basic details including their name and job title. 
+* When a user clicks on an employee from the list, the application should display their full details
+  - including their contact information, job title, and other important information. 
+* The user should be able to add new employees to the directory by entering their basic information and saving it locally. 
+  - Save employee name, email, contact info, job title, address, DOB and blood group etc.
+* Additionally, the user should be able to update an employee's information by selecting them from the employee list and editing their details.
+* Finally, an employee should be deleted by swiping to delete from the home screen
+* Use Firestore to store data
+* Once user sign in successfully, then redirect user to home screen without asking for authentication.
+    
 ### Practical 24
 #### Create a Contact Keeper application.
 * Build an app with one screen.
