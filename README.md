@@ -21,10 +21,10 @@ The Flutter Developer Roadmap 2023 includes **Practical exercises** that cover a
 * Navigation and Routing
 * Networking
 * State management
+* Depenedency Injection
 * Local Storage
 * Firestore Database
-* Depenedency Injection
-* Asynchronous programming in Flutter
+* Stream 
 
 ## Useful References
 The references provided are aimed at individuals who have no prior knowledge or experience in developing Flutter apps. They serve as a starting point for beginners in the field, providing basic knowledge that is necessary before diving into Flutter development. 
@@ -128,13 +128,13 @@ If you already have knowledge and experience in Flutter development, you may not
 #### Implement Color Pallate App for web.
 * Implement an app using Bottom navigation bar with Two tabs: Home and Favorite
 * On the Home screen,
-- Display a GridList of multiple color pallate
-- By Clicking on the pallate, User should be navigate to pallate detail screen
+  - Display a GridList of multiple color pallate
+  - By Clicking on the pallate, User should be navigate to pallate detail screen
 * On pallate Detail screen,
-- Show a Container with particular color and add button to favotite/unfavorite it.
+  - Show a Container with particular color and add button to favotite/unfavorite it.
 * On favorite screen,
-- Show Favourite pallate in list 
-- Use Navigator 2.0 for navigation.
+  - Show Favourite pallate in list 
+  - Use Navigator 2.0 for navigation.
 * You can use any colors to make UI eye-catchy
 * Here's [UI for Reference](https://www.pinterest.com/pin/844706473831200541)
 
