@@ -22,7 +22,7 @@ The Flutter Developer Roadmap 2023 includes **Practical exercises** that cover a
 * [Networking](https://github.com/canopas/flutter-developer-roadmap-2023/blob/main/README.md#networking)
 * [State management](https://github.com/canopas/flutter-developer-roadmap-2023/blob/main/README.md#state-management)
 * [Depenedency Injection](https://github.com/canopas/flutter-developer-roadmap-2023/blob/main/README.md#depenedency-injection)
-* Local Storage()
+* [Local Storage](https://github.com/canopas/flutter-developer-roadmap-2023/blob/main/README.md#local-storage)
 * [Stream](https://github.com/canopas/flutter-developer-roadmap-2023/blob/main/README.md#streams)
 * Firestore Database()
 
