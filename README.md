@@ -265,15 +265,15 @@ If you already have knowledge and experience in Flutter development, you may not
 #### Develop Protasker application
 * The App will have Three screens: Login, home and detail screens
 * On the Home screen,
- - Show a list of tasks with subtask and time of creation.
- - Screen should have a Fab button to add a new task. 
- - Add button on cell, so user can marked it as complete/incomplete.
- - On the cell swipe, show delete option and allow user to delete it on click of delete.
- - On the appbar, display a summary of the number of tasks that are pending.
- - On click of cell, redirect to Task detail screen.
+  - Show a list of tasks with subtask and time of creation.
+  - Screen should have a Fab button to add a new task. 
+  - Add button on cell, so user can marked it as complete/incomplete.
+  - On the cell swipe, show delete option and allow user to delete it on click of delete.
+  - On the appbar, display a summary of the number of tasks that are pending.
+  - On click of cell, redirect to Task detail screen.
 * On Detail screen,
- - allow user to edit this task and subtask.
- - add button to save the updated data.
+  - allow user to edit this task and subtask.
+  - add button to save the updated data.
 * Use sq_lite to store data
 * Display data from SQLite on the home screen.
 * You can use any state management library.
