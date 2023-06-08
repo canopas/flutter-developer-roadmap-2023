@@ -19,7 +19,7 @@ The Flutter Developer Roadmap 2023 includes **Practical exercises** that cover a
 * [Useful References](https://github.com/canopas/flutter-developer-roadmap-2023/blob/main/README.md#useful-references)
 * [Material Component](https://github.com/canopas/flutter-developer-roadmap-2023/blob/main/README.md#material-component)
 * [Navigation and Routing](https://github.com/canopas/flutter-developer-roadmap-2023/blob/main/README.md#navigation-and-routing)
-* Networking()
+* [Networking](https://github.com/canopas/flutter-developer-roadmap-2023/blob/main/README.md#networking)
 * State management()
 * Depenedency Injection()
 * Local Storage()
