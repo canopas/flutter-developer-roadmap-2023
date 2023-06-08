@@ -35,7 +35,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * [Layout in Flutter](https://docs.flutter.dev/ui/layout#1-select-a-layout-widget)
 * [Stateful and Stateless widget](https://docs.flutter.dev/ui/interactive#stateful-and-stateless-widgets)
 * [State management approaches in Flutter](https://docs.flutter.dev/data-and-backend/state-mgmt/options)
-* [Design Pattern in Flutter](https://medium.flutterdevs.com/design-patterns-in-flutter-part-1-c32a3ddb00e2)
+* [App Architecture in Flutter](https://medium.flutterdevs.com/design-patterns-in-flutter-part-1-c32a3ddb00e2)
 * [Networking](https://docs.flutter.dev/data-and-backend/networking)
 * [Asynchronous programming](https://dart.dev/codelabs/async-await)
 
