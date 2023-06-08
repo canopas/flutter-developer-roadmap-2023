@@ -280,7 +280,7 @@ If you already have knowledge and experience in Flutter development, you may not
 ### Practical 19
 #### Develop Authentify
 * An application that takes user credentials and basic information of a user and navigates to the home screen after a successful login.
-* The app will have one Activity
+* The app will have one Screen
   - First, the app will show the register form
     - Take the user's name, email and password for login
     - Other basic information such as an address, DOB, blood group and gender etc.
