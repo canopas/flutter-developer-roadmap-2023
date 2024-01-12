@@ -128,7 +128,7 @@ If you already have knowledge and experience in Flutter development, you may not
   - Displays a list containing list tiles, each indicating a number in ascending order up to 100.
   - Each tile should be tappable and the User should navigate to Its detail screen.
   * On the detail screen
-    - Show a number of list tiles that the user selects.
+    - Show a number of list tile that the user selects.
   - The user should be able to redirect to the Detail screen by passing the number in the web URL.
 * On the Palette screen,
   - Display a GridList of multiple color palettes.
