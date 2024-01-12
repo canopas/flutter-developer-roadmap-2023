@@ -77,10 +77,10 @@ If you already have knowledge and experience in Flutter development, you may not
 #### Implement Note-taking application
 * Single Screen app
   - Which allows the user to enter a note.
-  - Use EditText to take input from the user.
+  - Use `TextField` to take input from the user.
   - Add a button to reset the note.
-* The application should have the ability to maintain the state of the TextField, even after the device is rotated or the app is in the background. 
-* This means that when the user rotates the device, the TextField should retain its previous contents, and the user should be able to continue editing the note without losing any data.
+* The application should have the ability to maintain the state of the `TextField`, even after the device is rotated or the app is in the background. 
+* This means that when the user rotates the device, the `TextField` should retain its previous contents, and the user should be able to continue editing the note without losing any data.
 
 # Navigation and Routing
 
