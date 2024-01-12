@@ -61,8 +61,8 @@ If you already have knowledge and experience in Flutter development, you may not
 
 ### Practical 4
 #### Implement Survey application
-* On the Home screen display a survey form.
-  The survey form should show questions, 4 options, and a button for the next question.
+* On the Home screen, display a survey form.
+  The survey form should show a question, 4 options, and a button for the next question.
   - Show progress as the user answers the question.
 * Once the survey is completed, show a pop-up message thanking the user.
   - Use the Alert dialog to thank the user.
