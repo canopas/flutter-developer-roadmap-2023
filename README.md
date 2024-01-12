@@ -68,7 +68,7 @@ If you already have knowledge and experience in Flutter development, you may not
   - Use the Alert dialog to thank the user.
   - Dialog will have UI to show a thanks message, image, and button to complete the survey.
 * Ask at least 3 questions with 4 options each. 
-* The app should ask users about the shopping experience. 
+* The app should ask users about the survey experience. 
 * Use TabView to display questions.
 * You can use any images or placeholder for eye-catching UI.
 * Here's [UI for reference](https://cubicleninjas.com/wp-content/uploads/2021/01/NA-2021-Web-Questionnaire-3.jpg)
