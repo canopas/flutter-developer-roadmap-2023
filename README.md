@@ -146,6 +146,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * The app will have two screens
   - The home screen should show a list of users, retrieved from API.
   - Use Listview to show all users.
+  - Add drag and drop support.
   - Show a summary of users in the list including name, image, and email.
   - GET Api Url : http://jsonplaceholder.typicode.com/users
 * On the user-item click, display all details of the user on the next screen. 
