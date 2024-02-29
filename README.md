@@ -229,7 +229,6 @@ If you already have knowledge and experience in Flutter development, you may not
   - If the user changes the setting's toggle, it should stay as it is when the user navigates between the tabs.
 * Use riverpod for state management.
 
-# Depenedency Injection
 
 ### Practical 16
 #### Create My Journal application
@@ -240,7 +239,6 @@ If you already have knowledge and experience in Flutter development, you may not
   - Add a button to save the user's thoughts.
   - Store inputs in the state Manager class as the state.
 * The user should be able to add multiple thoughts.
-* The application should be able to persist data even when there is a configuration change, such as screen rotation.
 * Use `riverpod` for state management.
 
 ### Practical 17
