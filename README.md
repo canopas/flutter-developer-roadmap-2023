@@ -163,7 +163,7 @@ If you already have knowledge and experience in Flutter development, you may not
   - Tapping a recipe should open the Recipe Detail Screen.
 * On the Detail Screen show full recipe detail with recipe image and description.
   - Add a back button to navigate back to the list of recipes.
-*  GET Api Url: https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/479101/information
+*  GET Api Url:  https://yummly2.p.rapidapi.com/feeds/list
 *  To access RapidAPI, log in or create an account to obtain an API key.
 * Use `dio` for networking.
 
