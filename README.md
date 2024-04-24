@@ -74,11 +74,12 @@ If you already have knowledge and experience in Flutter development, you may not
 * You can use any images or placeholder for eye-catching UI.
 * Here's [UI for reference](https://cubicleninjas.com/wp-content/uploads/2021/01/NA-2021-Web-Questionnaire-3.jpg)
 
-## Practical 5
-#### Fitness Journal:
-* Develop an app for users to track their fitness activities and progress.
-* Use TextFields for users to input details for workout type, duration, and notes.
+### Practical 5
+#### Fitness Journal
+* Develop an app for users to track their fitness activities.
+* Use TextFields for users to input details for workout type, duration, date, and notes.
 * Show all workout entries on the home screen.
+* Add option to filter workout entries by date, type, duration 
 * Ensure that the app maintains entered fitness data even after device rotation.
 
 # Navigation and Routing
