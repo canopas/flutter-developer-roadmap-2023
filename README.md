@@ -7,7 +7,7 @@ The Flutter Developer Roadmap 2023 includes **Practical exercises** that cover a
 
 - Before starting any practical it's important to conduct research and learn the necessary concepts.
 
-- As you progress through the practical exercises, make sure to apply the new knowledge you've gained in subsequent exercises. Try to allocate maximum 5 days to each practical.
+- As you progress through the practical exercises, make sure to apply the new knowledge you've gained in subsequent exercises. Try to allocate a maximum 5 days to each practical.
 
 
 # Table of contents
@@ -50,11 +50,12 @@ If you already have knowledge and experience in Flutter development, you may not
 * Use Flutter's Materials Design 3 to enhance your design process.
 
 ### Practical 3
-#### Develop a collapsing toolbar for the News application
-* The home screen should show the toolbar and news content.
+#### Develop a News application
+* The home screen should show the toolbar, floating button and news content.
 * The toolbar on the screen should initially display the app's logo and title.
 * As the user scrolls down to read the news, the toolbar should collapse to provide more space for the content.
   - You can use any dummy text/images as article content.
+* Also animate the floating button as a user scrolls down, something like [this](https://dribbble.com/shots/3541588-Play-Button-Microinteraction)
 * When the user reaches the end of the news and reverses scrolls, the toolbar should re-expand and display the app's logo & title.
 * You can use any images or placeholder for eye-catching UI.
 * Here's [UI for reference](https://cdn.dribbble.com/users/663782/screenshots/3742414/media/67464fde751beb373b4c6fa962edf718.gif).
@@ -69,18 +70,16 @@ If you already have knowledge and experience in Flutter development, you may not
   - Dialog will have UI to show a thanks message, image, and button to complete the survey.
 * Ask at least 3 questions with 4 options each. 
 * The app should ask users about the Shopping experience. 
-* Use TabView to display questions.
+* Use a Pager to display questions.
 * You can use any images or placeholder for eye-catching UI.
 * Here's [UI for reference](https://cubicleninjas.com/wp-content/uploads/2021/01/NA-2021-Web-Questionnaire-3.jpg)
 
 ## Practical 5
-#### Implement Note-taking application
-* Single Screen app
-  - Which allows the user to enter a note.
-  - Use `TextField` to take input from the user.
-  - Add a button to reset the note.
-* The application should have the ability to maintain the state of the `TextField`, even after the device is rotated or the app is in the background. 
-* This means that when the user rotates the device, the `TextField` should retain its previous contents, and the user should be able to continue editing the note without losing any data.
+#### Fitness Journal:
+* Develop an app for users to track their fitness activities and progress.
+* Use TextFields for users to input details for workout type, duration, and notes.
+* Show all workout entries on the home screen.
+* Ensure that the app maintains entered fitness data even after device rotation.
 
 # Navigation and Routing
 
@@ -164,7 +163,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * On the Detail Screen show full recipe detail with recipe image and description.
   - Add a back button to navigate back to the list of recipes.
 *  GET Api Url:  https://yummly2.p.rapidapi.com/feeds/list
-*  To access RapidAPI, log in or create an account to obtain an API key.
+*  To access API, log in or create an account to obtain an API key.
 * Use `dio` for networking.
 
 ### Practical 11
@@ -177,11 +176,11 @@ If you already have knowledge and experience in Flutter development, you may not
   - Show download progress in the notification.
   - Show the downloaded image on full screen, once the download succeeds.
   - Add a button to save downloaded images in Gallery.
-* Use `Retrofit` for networking
+* Use `dio` for networking
 
 ### Practical 12
 #### Implement Drink Explorer
-* Allow users to search for their favorite mocktail detail.
+* Allow users to search for their favourite mocktail detail.
 * The app will have one Screen.
   - Add a search bar that allows users to search for mocktails by name
   - GET Api Url : https://www.thecocktaildb.com/api/json/v1/1/search.php?i={mocktail}
@@ -198,9 +197,9 @@ If you already have knowledge and experience in Flutter development, you may not
   - Show a List of movies in GridView.
   - Show movie poster image in the list including the name.
   - Get Api url: (https://netflix54.p.rapidapi.com)
-  - On tap of the movie, display all details of the movie on the next screen with the favorite button.
+  - On tap of the movie, display all details of the movie on the next screen with the favourite button.
 * On the Favorite screen,
-  - Show a list of movie that has been added as favorite and a button to remove them from favorites.
+  - Show a list of favourite movies and a button to remove them from favourites.
 *  Use Provider for State Management and go_router for navigation.
 
 ### Practical 14
@@ -234,7 +233,7 @@ If you already have knowledge and experience in Flutter development, you may not
 #### Create My Journal application
 * Enable users to Add their daily thoughts, feelings, experiences, and ideas. 
 * The app will have a one-screen,
-  - Show user's thoughts in Grid.
+  - Show the user's thoughts in Grid.
   - Add TextField to take user input.
   - Add a button to save the user's thoughts.
   - Store inputs in the state Manager class as the state.
@@ -268,7 +267,7 @@ If you already have knowledge and experience in Flutter development, you may not
   - Show a list of tasks with subtasks and time of creation.
   - Screen should have a Fab button to add a new task. 
   - Add a button on the cell, so the user can mark it as complete/incomplete.
-  - On the cell swipe, show delete option and allow the user to delete it by clicking on it.
+  - On the cell swipe, show the delete option and allow the user to delete it by clicking on it.
   - On the appbar, display a summary of the number of tasks that are pending.
   - On click of the cell, redirect to the Task detail screen.
 * On Detail screen,
