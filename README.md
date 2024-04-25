@@ -51,7 +51,7 @@ If you already have knowledge and experience in Flutter development, you may not
 
 ### Practical 3
 #### Develop a News application
-* The home screen should show the toolbar, floating button and news content.
+* The home screen should show the toolbar, floating button, and news content.
 * The toolbar on the screen should initially display the app's logo and title.
 * As the user scrolls down to read the news, the toolbar should collapse to provide more space for the content.
   - You can use any dummy text/images as article content.
@@ -70,7 +70,7 @@ If you already have knowledge and experience in Flutter development, you may not
   - Dialog will have UI to show a thanks message, image, and button to complete the survey.
 * Ask at least 3 questions with 4 options each. 
 * The app should ask users about the Shopping experience. 
-* Use a Pager to display questions.
+* Use a `PageView` to display questions.
 * You can use any images or placeholder for eye-catching UI.
 * Here's [UI for reference](https://cubicleninjas.com/wp-content/uploads/2021/01/NA-2021-Web-Questionnaire-3.jpg)
 
@@ -92,8 +92,8 @@ If you already have knowledge and experience in Flutter development, you may not
   - Add a Floating Action Button on the screen.
   -  On tap of the Floating action button, redirect the user to the Apply-Leave Screen.
 * On the Apply-Leave screen,
-  - It should contain text-fields for user input.
-  - Add text-fields so user can enter the start date, end date, and reason for the leave.
+  - It should contain `TextField` for user input.
+  - Add `TextField` so user can enter the start date, end date, and reason for the leave.
   - Add a button to Apply for leave and the User should navigate back to the home screen by tapping the button.
 * Show Applied leave on the home screen. 
   * The app should be responsive to different resolutions.
@@ -151,7 +151,7 @@ If you already have knowledge and experience in Flutter development, you may not
   - GET Api Url : http://jsonplaceholder.typicode.com/users
 * On the user-item click, display all details of the user on the next screen. 
   - Use GridView to show albums.
-  - Show placeholder images for an album to make UI eye-catchy.
+  - Show placeholder images for an album to make UI eye-catching.
   - GET Api Url : https://jsonplaceholder.typicode.com/albums?userId=1
 * Use `http` for networking.
 
@@ -184,7 +184,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * Allow users to search for their favourite mocktail detail.
 * The app will have one Screen.
   - Add a search bar that allows users to search for mocktails by name
-  - GET Api Url : https://www.thecocktaildb.com/api/json/v1/1/search.php?i={mocktail}
+  - GET Api Url : https://www.thecocktaildb.com/api/json/v1/1/search.php?s={mocktail}
   - Default search text should be `mocktail`. That means initially showing `Mocktail` in the search bar and fetching `mocktail` using API from search text.
 * When the user taps on a mocktail, the application should display the ingredients and details of the mocktail. 
   - Use dummy data if required.
