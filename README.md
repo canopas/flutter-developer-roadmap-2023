@@ -135,7 +135,7 @@ If you already have knowledge and experience in Flutter development, you may not
   - By Clicking on the palate, the User should navigate to the Palette detail screen
   * On the palette Detail screen,
       - Show a Container with a particular color and add a button to favorite/unfavorite it.
-* Use Navigator 2.0 for navigation.
+* Use go_router for Navigation.
 * You can use any colors to make UI eye-catchy.
 * Here's [UI for Reference](https://www.pinterest.com/pin/844706473831200541).
 
