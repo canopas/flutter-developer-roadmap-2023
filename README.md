@@ -286,7 +286,7 @@ If you already have knowledge and experience in Flutter development, you may not
     - Take the user's name, email, and password for login
     - Other basic information such as an address, DOB, blood group, gender, etc.
     - Add validation for email and password.
-    - Save user details in DataStore.
+    - Save user details in Local Database.
   - After registering, show a login form
     - Take email and password
     - Check whether the user is available or not. If the user does not exist, notify the user to do registration.
