@@ -346,7 +346,7 @@ If you already have knowledge and experience in Flutter development, you may not
   - Add an option to play pronunciations of words.
 * Make sure the app will not make unnecessary API calls while typing in the search view.
 * Use Streambuilder to render UI.
-* API - https://api.dictionaryapi.dev/api/v2/entries/en/<word>
+* API - https://api.dictionaryapi.dev/api/v2/entries/en/$word
 * Write Unit test for viewModel.
     
 # FireStore Database
