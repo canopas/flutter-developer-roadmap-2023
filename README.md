@@ -372,7 +372,6 @@ If you already have knowledge and experience in Flutter development, you may not
     
 ### Practical 24
 #### Create a Contact Keeper application.
-* Build an app with one screen.
 * On the Home screen,
   - Show all Contacts on the home screen.
     - Show name, phone number, and profile.
@@ -386,4 +385,39 @@ If you already have knowledge and experience in Flutter development, you may not
 * Use Firestore to store contact details.
 * Use rx_dart for state management.
 * Write Unit test.
+
+### Practical 25
+#### Create a Global News Tracker application.
+* The Home screen UI
+ - Design a home screen to display news articles.
+   - Pagination
+     - Fetch and display news articles in batches of 10.
+     - Implement infinite scrolling to load more articles as the user scrolls.
+   - Implement Search Functionality:
+     -  Add a search bar at the top of the screen.
+     -  Implement a search feature that filters the list of news articles based on user input.
+     -  Update the UI dynamically as the user types in the search bar.
+  - Sorting Functionality:
+     - Add a sort button next to the search bar that triggers a pop-up for sorting options.
+     - Implement sorting by popularity, date range (from date, to date), and publication date.
+     - Fetch sorted data from the API based on the selected sorting option.
+- Allow Advanced Filters
+- Add options for users to filter news by Categories, Country, and Language
+  -  Possible options by this API:
+    - Categories: business, entertainment, general, health, science, sports, technology. Default: all categories.
+    - Languages: ar, de, en, es, fr, he, it, nl, no, pt, ru, sv, ud, zh. Default: all languages.
+    - country: ae, ar, at, au, be, bg, be, ca, ch, cn, co, cu, cz, de, eg, fr, gb, gr, hk, hu, id, ie, il, in, it, jp, kr, lt, lv, ma, mx, my, ng, nl, no, nz, ph, pl, pt, to, rs, ru, as, se, sg, si, sk, the, tr, tw, ua, us, ve, za. Default: all 
+             countries.
+- Detail screen:
+  - Navigate to a detailed news screen upon tapping a news item.
+  - Display the full news article with all the details.
+- Support multiple languages and display news content based on the user's locale.
+- Use MVVM architecture
+- News API: GET `https://newsapi.org/v2/`
+- generate API key from [here](https://newsapi.org/)
+
+
+
+
+
 
