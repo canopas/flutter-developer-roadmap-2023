@@ -39,25 +39,24 @@ If you already have knowledge and experience in Flutter development, you may not
 # Material Component
 
 ### Practical 1
-#### Implement user profile UI
-* Display a user's profile picture, name, and bio. 
-* Here's [UI for reference](https://cdn.dribbble.com/userupload/5207044/file/original-ceb3338a4a693f6ab102298dd3745716.jpg?compress=1&resize=1024x768).
-
-### Practical 2
 #### Design a fitness app
 * Create a Flutter application and Design [Static UI](https://dribbble.com/shots/21236904-Fitness-App-Design).
-* The app should be responsive to different resolutions.
+* Ensure the app's UI is responsive and adapts smoothly to different screen sizes and resolutions.
 * Use Flutter's Materials Design 3 to enhance your design process.
 
-### Practical 3
+### Practical 2
 #### Develop a News application
-* The home screen should show the toolbar, floating button, and news content.
-* The toolbar on the screen should initially display the app's logo and title.
-* As the user scrolls down to read the news, the toolbar should collapse to provide more space for the content.
-  - You can use any dummy text/images as article content.
-* Also animate the floating button as a user scrolls down, something like [this](https://dribbble.com/shots/3541588-Play-Button-Microinteraction)
-* When the user reaches the end of the news and reverses scrolls, the toolbar should re-expand and display the app's logo & title.
-* You can use any images or placeholder for eye-catching UI.
+* Home Screen Layout:
+  - The home screen should include a toolbar, a floating button, and a section to display news content.
+  - Use dummy text and images for the news articles.
+    - Toolbar Behavior:
+      - Initially, the toolbar should display the app's logo and title.
+      - As the user scrolls down to read the news, the toolbar should collapse, allowing more space for content.
+      - When the user scrolls back up, the toolbar should expand again, showing the logo and title.
+  - Floating Button Animation:
+    - Implement an animation for the floating button similar to the example provided [here](https://dribbble.com/shots/3541588-Play-Button-Microinteraction).
+    - The button should animate as the user scrolls down and up.
+* Utilize eye-catching images or placeholders for the news content to make the UI visually appealing.
 * Here's [UI for reference](https://cdn.dribbble.com/users/663782/screenshots/3742414/media/67464fde751beb373b4c6fa962edf718.gif).
 
 ### Practical 4
