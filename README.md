@@ -34,6 +34,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * [App Architecture in Flutter](https://medium.flutterdevs.com/design-patterns-in-flutter-part-1-c32a3ddb00e2)
 * [Networking](https://docs.flutter.dev/data-and-backend/networking)
 * [Asynchronous programming](https://dart.dev/codelabs/async-await)
+* [App architecture in Flutter](https://codewithandrea.com/articles/comparison-flutter-app-architectures/)
 
 
 # Material Component
@@ -56,7 +57,7 @@ If you already have knowledge and experience in Flutter development, you may not
   - Floating Button Animation:
     - Implement an animation for the floating button similar to the example provided [here](https://dribbble.com/shots/3541588-Play-Button-Microinteraction).
     - The button should animate as the user scrolls down and up.
-* Utilize eye-catching images or placeholders for the news content.
+* Use eye-catching images or placeholders for the news content.
 * Here's [UI for reference](https://cdn.dribbble.com/users/663782/screenshots/3742414/media/67464fde751beb373b4c6fa962edf718.gif).
 
 ### Practical 3
@@ -71,7 +72,7 @@ If you already have knowledge and experience in Flutter development, you may not
 * Survey Completion:
   - Once the user completes the survey, show a pop-up message thanking them.
 * Include at least three questions, each with four options, related to the user's shopping experience.
-* Utilize eye-catching images or placeholders for the news content.
+* Use eye-catching images or placeholders for the news content.
 * Here's [UI for reference](https://cubicleninjas.com/wp-content/uploads/2021/01/NA-2021-Web-Questionnaire-3.jpg)
 
 ### Practical 4
@@ -100,7 +101,7 @@ Create a LeaveTracker application with two screens—Home and Apply-Leave.
   - Add a button to apply for leave. On tapping this button, the user should navigate back to the home screen.
 * Show the applied leave details on the home screen after the user submits the form. 
   * The app should be responsive to different resolutions.
-* Utilize eye-catching images or placeholders for the UI content.
+* Use eye-catching images or placeholders for the UI content.
 * Here's [UI for reference](https://github.com/canopas/flutter-developer-roadmap-2023/files/11687291/leaveTracher_ui.zip).
 
   
@@ -152,8 +153,8 @@ Develop an application with two tabs using Bottom Navigation: Home and Palette.
   * Detail Screen (Palette Detail):
     - Display a container with a specific color from the selected palette.
     - Add a button to favorite/unfavorite the color.
-* Use go_router for Navigation.
-* Utilize eye-catching colors to enhance UI.
+* Use `go_router` for Navigation.
+* Use eye-catching colors to enhance UI.
 * Here's [UI for Reference](https://www.pinterest.com/pin/844706473831200541).
 
 # Networking 
@@ -171,8 +172,8 @@ Create an application with two screens: Home screen and Detail screen
   - Display detailed information about the selected user.
   - Fetch albums for the selected user from the API
   - GET API : https://jsonplaceholder.typicode.com/albums?userId=1
-  - Show albums using GridView with placeholder images.
-* Utilize the `http` package for making HTTP requests to fetch data from APIs.
+  - Show albums using `GridView` with placeholder images.
+* Use the `http` package for making HTTP requests to fetch data from APIs.
 
 ### Practical 10
 #### Develop RecipeLister application
@@ -224,7 +225,7 @@ Develop an application, TalkEasy, allowing users to send and receive messages be
   - `TextField` for entering a message and Button to send the message.
   - When the user enters a reply message and clicks on the button, the replied message should be sent back to the Sender screen and displayed on the screen.
 * Messages should be displayed dynamically on both screens as they are sent and received.
-* Use Provider for State Management
+* Use `Provider` for State Management
 
 ### Practical 14
 #### Implement MovieDirectory Application
@@ -239,8 +240,8 @@ Develop an application, with a Persistent bottom navigation bar with two tabs: H
 * On the Favorite screen,
   - Display a list of movies marked as favorites.
   - Provide an option to remove movies from the favorites list.
-*  Use flutter_bloc for State Management.
-*  GET API: (https://netflix54.p.rapidapi.com)
+*  Use `flutter_bloc` for State Management.
+*  GET API: https://netflix54.p.rapidapi.com
 
 
 ### Practical 15
@@ -251,7 +252,7 @@ Develop an application, with a Persistent bottom navigation bar with two tabs: H
   - Fetch and display a list of universities from the selected country using an API.
   - Implement search functionality to filter universities based on user input.
 * GET API - http://universities.hipolabs.com/search?country={country name}
-* Use riverpod for state management.
+* Use `riverpod` for state management.
 
 ### Practical 16
 #### Develop a Travel application
@@ -308,9 +309,29 @@ Create a quiz application named MathQuest that presents users with a series of m
 * Here's [UI for reference](https://cdn.dribbble.com/users/2469034/screenshots/8210470/media/f02da6249ee8c25f187432c73d4eec27.png).
 * Write unit test for `ViewModel`.
 
+### Practical 19
+#### Implement VideoHub application
+ VideoHub is an application designed for users to discover and watch videos.
+* Add Sign-in Screen 
+*  Bottom Navigation Bar
+  - Add a bottom navigation bar with three tabs: Home, Subscriptions and Settings.
+ * Home Screen:
+  - Display a list of videos.
+  - Video content with total duration, thumbnail, uploaded time, subscribers, and total views.
+  - Show the video by tapping on it.
+     * Video detail Screen:
+      - Add an option to play/pause video.
+  - Add an option to subscribe and like videos.
+* Subscription Screen:
+  - Show subscribed Channel and liked videos with thumbnails and description
+* Settings Screen:
+  - Show User details on the settings screen
+  - Add dark/light theme support
+* Use dummy data(You can get it form [here](https://gist.github.com/poudyalanil/ca84582cbeb4fc123a13290a586da925))
+
 # Local Storage
 
-### Practical 19
+### Practical 20
 #### Develop Protasker application
 * Develop an application with three screens: Login, Home, and Detail screens
 * Login Screen:
@@ -329,7 +350,7 @@ Create a quiz application named MathQuest that presents users with a series of m
 * Display data from SQLite on the home screen.
 * You can use any state management library.
 
-### Practical 20
+### Practical 21
 #### Develop Authentify
 Authentify is an authentication application that allows users to register, login, view their profile details, and log out. 
 * Registration Screen:
@@ -346,101 +367,118 @@ Authentify is an authentication application that allows users to register, login
     - Add validation for email.
 * Home Screen:
   - Display user details retrieved from the local database upon successful login.
-  - Include options in the toolbar for logout and deleting the user's account.
+  - Include options in the toolbar for logging out and deleting the user's account.
   - Maintain user session persistently until logout.
 * Use `flutter_bloc` for state management.
 * Write unit test for Bloc.
 
+### Practical 22
+####  Implement MinionSpeak Application
+The application allows users to translate English text into the Minions' language and displays the translated text on the screen.
+* Home Screen:
+  - Text field to enter English text.
+  - Button to translate text.
+  - Display translated text.
+  - Add an option to listen to the translated word. 
+  - Floating Action Button (FAB) to view translation history.
+* History Screen:
+  - Display a list of previous translations.
+  - Option to delete translation history.
+* GET Request API: https://api.funtranslations.com/translate/minion.json?text={text}
 
-### Practical 20
+
+### Practical 23
 #### Implement offline-first StoreMate product application
-* GET API - https://fakestoreapi.com/products
-* On the Home screen
-  - Retrieve the list of products from an API and display it to the user using Listview.
-  - Show product name, image, and button to favorite/unfavourite product.
-* Allow the user to view the product by clicking on it. 
-  - Show all details of the product.
-  - Add an option to favorite/unfavourite the product.
-* Add an option on the home screen to view favorite products
-  - Show all favorite products.
-  - Add option to remove from favorites.
-  - Add option to remove all favorite item
-  - Users can select multiple items with a long click and can remove all selected products from their favorites.
+StoreMate is a product browsing application that fetches product data from an API, displays it in a list, and supports offline browsing using local storage.
+* Home Screen:
+  - Retrieve and display a list of products from the API using ListView.
+  - Show product name, image, and a button to favorite/unfavorite the product.
+  - Allow users to view product details by clicking on a product item.
+  - Provide an option to view favorite products.
+  - Include swipe-to-delete functionality to remove the product.
+  - Implement swipe-to-refresh functionality to refresh the local database with remote data.
+     - Pagination
+       - Fetch and display products in batches of 10.
+       - Implement infinite scrolling to load more products as the user scrolls.
+* Product Detail Screen:
+  - Display all details of a selected product.
+  - Include an option to favorite/unfavorite the product.
+* Favorites Screen:
+  - Show a list of favorite products.
+  - Allow users to remove individual products or all products from favorites.
+  - Support selecting multiple items with a long click and removing all selected products from favorites.
 * The application should have offline functionality, allowing the user to continue browsing products even when they do not have an internet connection.
 * The product data should be first fetched from the local database and then synced with remote API data.
-* Add swipe-to-delete functionality to remove products from local storage.
-* Add swipe-to-refresh functionality to refresh the local database with remote data.
 * You can use any state management library.
-* Add unit test.
+* GET API to fetch all products - https://dummyjson.com/products
+                  Limit and skip - https://dummyjson.com/products?limit=10&skip=10&select=title,price
+                  Delete item - "PUT" - 'https://dummyjson.com/products/1'
+* Add unit test for `ViewModel`
 
 # Streams
 
-### Practical 21
-#### Implement count-down timer application using Stream
-* Build an app using one Screen
-* On the Home screen
-  - Add text fields to take user input for hours, minutes, and seconds.
-  - Button to start/stop the timer.
-  - Show remaining & elapsed time.
-* The user should be able to set the duration of the timer and start it. 
-* When the timer ends, the app should display a notification to indicate that the time is up.
-* Also play sound and vibrate the device on the timer completes.
-* Write Unit test.
-
-### Practical 22
-#### Implement a VocabVault app
-* Allow users to search for the definition of any word in the English language.
-* On the Home screen
-  - Users should be able to search for a word by typing it into a search bar.
-  - The app should display a list of words as the user types in the search view.
-  - The app should display the word's definition along with pronunciations, parts of speech, examples, and synonyms.
-  - Add an option to play pronunciations of words.
-* Make sure the app will not make unnecessary API calls while typing in the search view.
-* Use Streambuilder to render UI.
-* API - https://api.dictionaryapi.dev/api/v2/entries/en/$word
-* Write Unit test for viewModel.
-    
-# FireStore Database
-
-### Practical 23
-#### Develop EmployeeHub application
-* Build an app using Google-sign-in
-* The application should have a main entry point- Sign-in Screen
-* On the Sign-in screen
-- This should Display Image, introduction content, and **Sign in with Google** Button.
-- On the Click of a button, authenticate a user with Google and Firebase authentication.
-- After successful sign-in, navigate the user to the home screen.
-* The application should display a list of employees on the home screen.
-  - Show basic details including their name and job title. 
-* When a user clicks on an employee from the list, the application should display their full details.
-  - including their contact information, job title, and other important information. 
-* The user should be able to add new employees to the directory by entering their basic information and saving it locally. 
-  - Save employee name, email, contact info, job title, address, DOB, blood group, etc.
-* Additionally, the user should be able to update an employee's information by selecting them from the employee list and editing their details.
-* Finally, an employee should be deleted by swiping to delete from the home screen.
-* Use Firestore to store data.
-* Once the user signs in successfully, then redirect the user to the home screen without asking for authentication.
-    
 ### Practical 24
-#### Create a Contact Keeper application.
-* On the Home screen,
-  - Show all Contacts on the home screen.
-    - Show name, phone number, and profile.
-    - On click of contact show the contact profile.
-  - Add an option to update contact details.
-  - Add an option to delete a user by swiping to delete.
-  - Add option to add contact with person name, multiple phone numbers, profile image, blood group, and address.
-* Add a screen to edit/show contact details.
-  - Add option to delete contact.
-* The app should also update contacts in real-time, so changes made by one user are reflected across all devices.
-* Use Firestore to store contact details.
-* Use rx_dart for state management.
+#### Implement count-down timer application using Stream
+The Countdown Timer application allows users to set a timer by inputting hours, minutes, and seconds, and then start/stop the timer.
+* Home screen:
+  - Text fields for user input (hours, minutes, and seconds).
+  - A button to start/stop the timer.
+  - Display remaining and elapsed time.
+* The user should be able to set the duration of the timer and start it. 
+* Display a notification, play sound, and vibrate the device when the timer completes.
 * Write Unit test.
 
 ### Practical 25
+#### Implement a VocabVault app
+VocabVault allows users to search for the definitions of words in the English language. 
+* Home Screen:
+  - A search bar for users to input words.
+  - Display a list of matching words as the user types.
+  - Show detailed information for a selected word like Definition, Pronunciation, Parts of speech, and Synonyms.
+  - Add an option to play pronunciations of words.
+* Make sure the app will not make unnecessary API calls while typing in the search view.
+* Use Streambuilder to render UI.
+* Get API - https://api.dictionaryapi.dev/api/v2/entries/en/$word
+    
+# FireStore Database
+
+### Practical 26
+#### Develop EmployeeHub application
+This practical involves building an EmployeeHub application with Google Sign-In and Firebase for authentication and Firestore for storing employee data.
+* Sign-in Screen:
+  - Display an image, introductory content, and a "Sign in with Google" button.
+  - Authenticate the user with Google and Firebase Authentication upon button click.
+  - Navigate the user to the home screen after successful sign-in.
+* Home Screen:
+  - Display a list of employees with basic details (name and job title).
+  - Show full details of an employee upon selection, including contact information, job title, address, DOB, blood group, etc.
+  - Allow the user to add new employees with basic information saved locally and to Firestore.
+  - Allow the user to update an employee's information by selecting them from the list and editing their details.
+  - Allow the user to delete an employee by swiping.
+* Redirect the user to the home screen without asking for authentication if already signed in.
+* Use Firestore to store data.
+    
+### Practical 27
+#### Create a Contact Keeper application.
+Create an application, Conatact Keeper to allow users to add contacts.
+* Home Screen:
+  - Show all contacts with name, phone number, and profile.
+  - On clicking a contact, show the contact profile.
+  - Options to update and delete contact details.
+  - Swipe to delete a contact.
+  - Option to add a contact with name, multiple phone numbers, profile image, blood group, and address.
+* Contact Detail Screen:
+  - Show and edit contact details
+  - Option to delete a contact.
+* Fetch all contacts from the user's device and store them in Firestore.
+* The app should also update contacts in real-time, so changes made by one user are reflected across all devices.
+* Use `rx_dart` for state management.
+* Write Unit test.
+
+### Practical 28
 #### Create a Global News Tracker application.
-* The Home screen UI
- - Design a home screen to display news articles.
+The application will display news articles, and support pagination, sorting, searching, advanced filtering, and multiple languages based on user locale.
+* Home Screen:
    - Pagination
      - Fetch and display news articles in batches of 10.
      - Implement infinite scrolling to load more articles as the user scrolls.
@@ -452,7 +490,7 @@ Authentify is an authentication application that allows users to register, login
      - Add a sort button next to the search bar that triggers a pop-up for sorting options.
      - Implement sorting by popularity, date range (from date, to date), and publication date.
      - Fetch sorted data from the API based on the selected sorting option.
-- Allow Advanced Filters
+- Allow Advanced Filters (You can add a `Drawer` or whatever you like to add advanced filter)
 - Add options for users to filter news by Categories, Country, and Language
   -  Possible options by this API:
     - Categories: business, entertainment, general, health, science, sports, technology. Default: all categories.
@@ -462,10 +500,15 @@ Authentify is an authentication application that allows users to register, login
 - Detail screen:
   - Navigate to a detailed news screen upon tapping a news item.
   - Display the full news article with all the details.
-- Support multiple languages and display news content based on the user's locale.
-- Use MVVM architecture
+- Support multiple languages and display news content based on the user's locale. (No need to add a .arb file for each Locale)
+- Use `riverpod` for State management.
 - News API: GET `https://newsapi.org/v2/`
 - generate API key from [here](https://newsapi.org/)
+- Add Unit test for ViewModel`
+
+
+    
+
 
 
 
