@@ -321,7 +321,7 @@ The application will display news articles, and support pagination, sorting, sea
      -  Update the UI dynamically as the user types in the search bar.
   - Sorting Functionality:
      - Add a sort button next to the search bar that triggers a pop-up for sorting options.
-     - Implement sorting by popularity, date range (from date, to date), and publication date.
+     - Implement sorting by popularity and publication date.
      - Fetch sorted data from the API based on the selected sorting option.
 - Allow Advanced Filters (You can add a `Drawer` or whatever you like to add advanced filter)
 - Add options for users to filter news by Categories, Country, and Language
