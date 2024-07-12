@@ -197,7 +197,7 @@ Create an application with two screens: Home screen and Detail screen
     - A TextField to enter the image URL.
     - Buttons to initiate image download and cancel download.
     - Display download progress using a progress bar.
-    - Add notification to show downloading progress and cancel download action
+    - Add notification to show downloading progress and add cancel button to cancel downloading
     - Display the downloaded image in fullscreen once the download is complete.
     - Add a button to save downloaded images to the device's gallery.
 * Use `dio` for networking
@@ -294,17 +294,18 @@ Create a quiz application named MathQuest that presents users with a series of m
   - Add a bottom navigation bar with three tabs: Home, Subscriptions and Settings.
 * Home Screen:
   - Display a list of videos.
-  - Video content with total duration, thumbnail, uploaded time, subscribers, and total views.
+  - Video content with total duration, thumbnail, uploaded time, Like, and total views.
   - Show the video by tapping on it.
      * Video detail Screen:
       - Add an option to play/pause video.
   - Add an option to subscribe and like videos.
-* Subscription Screen:
-  - Show subscribed Channel and liked videos with thumbnails and description
+* Like Screen:
+  - Show liked videos with thumbnails and description
+  - Add option to remove it.
 * Settings Screen:
   - Show User details on the settings screen
   - Add dark/light theme support
-* Use dummy data(You can get it form [here](https://gist.github.com/poudyalanil/ca84582cbeb4fc123a13290a586da925))
+* Use dummy data(You can get it from [here](https://gist.githubusercontent.com/poudyalanil/ca84582cbeb4fc123a13290a586da925/raw/14a27bd0bcd0cd323b35ad79cf3b493dddf6216b/videos.json))
 
 ### Practical 19
 #### Create a Global News Tracker application.
