@@ -504,7 +504,7 @@ The application will display news articles, and support pagination, sorting, sea
 - Use `riverpod` for State management.
 - News API: GET `https://newsapi.org/v2/`
 - generate API key from [here](https://newsapi.org/)
-- Add Unit test for ViewModel`
+- Add Unit test for `ViewModel`
 
 
     
