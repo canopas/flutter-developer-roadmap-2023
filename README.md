@@ -132,7 +132,6 @@ Create a messaging application with onboard, sign-in, and home screens.
   - On successful login, redirect the user to the Home screen.
 * Home Screen:
   - Display a screen with three tabs in the persistent bottom navigation bar.
-  - Implement screens for each tab with eye-catching UI.
 * Ensure that after a successful login, users cannot navigate back to the login screen.
 * Use [go_router](https://pub.dev/packages/go_router) for Navigation.
 * Here's [UI for reference](https://cdn4.vectorstock.com/i/1000x1000/55/68/chat-message-app-ui-kit-design-vector-34385568.jpg).
@@ -198,6 +197,7 @@ Create an application with two screens: Home screen and Detail screen
     - A TextField to enter the image URL.
     - Buttons to initiate image download and cancel download.
     - Display download progress using a progress bar.
+    - Add notification to show downloading progress and cancel download action
     - Display the downloaded image in fullscreen once the download is complete.
     - Add a button to save downloaded images to the device's gallery.
 * Use `dio` for networking
@@ -254,31 +254,8 @@ Develop an application, with a Persistent bottom navigation bar with two tabs: H
 * GET API - http://universities.hipolabs.com/search?country={country name}
 * Use `riverpod` for state management.
 
-### Practical 16
-#### Develop a Travel application
-Create a travel application with three main screens: Destinations, Search, and Settings. 
-* Bottom Navigation Bar:
-  - Implement a bottom navigation bar with three tabs: Destinations, Search, and Settings.
-* Destinations Tab:
-  - Display a list of popular travel destinations with images and descriptions.
-  - Implement infinite scrolling to load more destinations as the user scrolls to the bottom.
-  - Preserve scroll position when navigating between tabs.
-  - Use dummy data for destinations.
-* Search Tab:
-  - Implement a search functionality to search for different destinations.
-  - Display a message when the searched destination is not available.
-* Settings Tab:
-  - Allow the user to customize app settings.
-  - Include a toggle button for notification settings and day/night theme settings.
-  - Preserve toggle state when navigating between tabs.
-* Use dummy data initially for destinations.
-* App should preserve the state on tab change
-  - Maintain the scroll position in the Destinations tab.
-  - Persist search results in the Search tab.
-  - Preserve toggle state when navigating between tabs.
-* Use the Model-View-ViewModel (MVVM) pattern to separate the business and presentation logic of an application from its user interface (UI).
 
-### Practical 17
+### Practical 16
 #### Create My Journal application
 Develop an application where users can add and view their daily thoughts, feelings, experiences, and ideas. 
   - Implement a single screen that displays user entries in a grid format.
@@ -288,7 +265,7 @@ Develop an application where users can add and view their daily thoughts, feelin
   - On Click of this link https://open.my.app?message={anymessage} from anywhere, the system should open app and show the message from a link
 * Use `riverpod` for state management.
 
-### Practical 18
+### Practical 17
 #### Develop MathQuest quiz application
 Create a quiz application named MathQuest that presents users with a series of math questions.
 * Home Screen:
@@ -309,7 +286,7 @@ Create a quiz application named MathQuest that presents users with a series of m
 * Here's [UI for reference](https://cdn.dribbble.com/users/2469034/screenshots/8210470/media/f02da6249ee8c25f187432c73d4eec27.png).
 * Write unit test for `ViewModel`.
 
-### Practical 19
+### Practical 18
 #### Implement VideoHub application
  VideoHub is an application designed for users to discover and watch videos.
 * Add Sign-in Screen 
@@ -328,6 +305,37 @@ Create a quiz application named MathQuest that presents users with a series of m
   - Show User details on the settings screen
   - Add dark/light theme support
 * Use dummy data(You can get it form [here](https://gist.github.com/poudyalanil/ca84582cbeb4fc123a13290a586da925))
+
+### Practical 19
+#### Create a Global News Tracker application.
+The application will display news articles, and support pagination, sorting, searching, advanced filtering, and multiple languages based on user locale.
+* Home Screen:
+   - Pagination
+     - Fetch and display news articles in batches of 10.
+     - Implement infinite scrolling to load more articles as the user scrolls.
+   - Implement Search Functionality:
+     -  Add a search bar at the top of the screen.
+     -  Implement a search feature that filters the list of news articles based on user input.
+     -  Update the UI dynamically as the user types in the search bar.
+  - Sorting Functionality:
+     - Add a sort button next to the search bar that triggers a pop-up for sorting options.
+     - Implement sorting by popularity, date range (from date, to date), and publication date.
+     - Fetch sorted data from the API based on the selected sorting option.
+- Allow Advanced Filters (You can add a `Drawer` or whatever you like to add advanced filter)
+- Add options for users to filter news by Categories, Country, and Language
+  -  Possible options by this API:
+    - Categories: business, entertainment, general, health, science, sports, technology. Default: all categories.
+    - Languages: ar, de, en, es, fr, he, it, nl, no, pt, ru, sv, ud, zh. Default: all languages.
+    - country: ae, ar, at, au, be, bg, be, ca, ch, cn, co, cu, cz, de, eg, fr, gb, gr, hk, hu, id, ie, il, in, it, jp, kr, lt, lv, ma, mx, my, ng, nl, no, nz, ph, pl, pt, to, rs, ru, as, se, sg, si, sk, the, tr, tw, ua, us, ve, za. Default: all 
+             countries.
+- Detail screen:
+  - Navigate to a detailed news screen upon tapping a news item.
+  - Display the full news article with all the details.
+- Support multiple languages and display news content based on the user's locale. (No need to add a .arb file for each Locale)
+- Use `riverpod` for State management.
+- News API: GET `https://newsapi.org/v2/`
+- generate API key from [here](https://newsapi.org/)
+- Add Unit test for `ViewModel`
 
 # Local Storage
 
@@ -475,36 +483,7 @@ Create an application, Conatact Keeper to allow users to add contacts.
 * Use `rx_dart` for state management.
 * Write Unit test.
 
-### Practical 28
-#### Create a Global News Tracker application.
-The application will display news articles, and support pagination, sorting, searching, advanced filtering, and multiple languages based on user locale.
-* Home Screen:
-   - Pagination
-     - Fetch and display news articles in batches of 10.
-     - Implement infinite scrolling to load more articles as the user scrolls.
-   - Implement Search Functionality:
-     -  Add a search bar at the top of the screen.
-     -  Implement a search feature that filters the list of news articles based on user input.
-     -  Update the UI dynamically as the user types in the search bar.
-  - Sorting Functionality:
-     - Add a sort button next to the search bar that triggers a pop-up for sorting options.
-     - Implement sorting by popularity, date range (from date, to date), and publication date.
-     - Fetch sorted data from the API based on the selected sorting option.
-- Allow Advanced Filters (You can add a `Drawer` or whatever you like to add advanced filter)
-- Add options for users to filter news by Categories, Country, and Language
-  -  Possible options by this API:
-    - Categories: business, entertainment, general, health, science, sports, technology. Default: all categories.
-    - Languages: ar, de, en, es, fr, he, it, nl, no, pt, ru, sv, ud, zh. Default: all languages.
-    - country: ae, ar, at, au, be, bg, be, ca, ch, cn, co, cu, cz, de, eg, fr, gb, gr, hk, hu, id, ie, il, in, it, jp, kr, lt, lv, ma, mx, my, ng, nl, no, nz, ph, pl, pt, to, rs, ru, as, se, sg, si, sk, the, tr, tw, ua, us, ve, za. Default: all 
-             countries.
-- Detail screen:
-  - Navigate to a detailed news screen upon tapping a news item.
-  - Display the full news article with all the details.
-- Support multiple languages and display news content based on the user's locale. (No need to add a .arb file for each Locale)
-- Use `riverpod` for State management.
-- News API: GET `https://newsapi.org/v2/`
-- generate API key from [here](https://newsapi.org/)
-- Add Unit test for `ViewModel`
+
 
 
     
