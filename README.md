@@ -315,7 +315,7 @@ Create a quiz application named MathQuest that presents users with a series of m
 * Add Sign-in Screen 
 *  Bottom Navigation Bar
   - Add a bottom navigation bar with three tabs: Home, Subscriptions and Settings.
- * Home Screen:
+* Home Screen:
   - Display a list of videos.
   - Video content with total duration, thumbnail, uploaded time, subscribers, and total views.
   - Show the video by tapping on it.
