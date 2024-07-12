@@ -31,7 +31,6 @@ If you already have knowledge and experience in Flutter development, you may not
 * [Layout in Flutter](https://docs.flutter.dev/ui/layout#1-select-a-layout-widget)
 * [Stateful and Stateless widget](https://docs.flutter.dev/ui/interactive#stateful-and-stateless-widgets)
 * [State management approaches in Flutter](https://docs.flutter.dev/data-and-backend/state-mgmt/options)
-* [App Architecture in Flutter](https://medium.flutterdevs.com/design-patterns-in-flutter-part-1-c32a3ddb00e2)
 * [Networking](https://docs.flutter.dev/data-and-backend/networking)
 * [Asynchronous programming](https://dart.dev/codelabs/async-await)
 * [App architecture in Flutter](https://codewithandrea.com/articles/comparison-flutter-app-architectures/)
@@ -214,6 +213,8 @@ Create an application that allows users to search for mocktail details by name u
 * Use dummy data if required.
 
  # State Management
+ Follow the MVVM (Model-View-ViewModel) pattern to separate the business and presentation logic of an application from its user interface (UI). To achieve a clean architecture, it's better to add one StateNotifier class (ViewModel in MVVM) per screen. Refer to [this article series](https://codewithandrea.com/articles/flutter-app-architecture-riverpod-introduction/) to understand MVVM as state management in Flutter.
+
 
  ### Practical 13
  #### Develop the TalkEasy application
