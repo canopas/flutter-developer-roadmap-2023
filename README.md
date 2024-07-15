@@ -335,7 +335,7 @@ The application will display news articles, and support pagination, sorting, sea
   - Display the full news article with all the details.
 - Support multiple languages and display news content based on the user's locale. (No need to add a .arb file for each Locale)
 - Use `riverpod` for State management.
-- News API: GET `https://newsapi.org/v2/`
+- News API: GET `https://newsapi.org/v2/everything`
 - generate API key from [here](https://newsapi.org/)
 - Add Unit test for `ViewModel`
 
