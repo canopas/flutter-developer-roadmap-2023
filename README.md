@@ -1,4 +1,4 @@
-<h1 align="center">Flutter Developer Roadmap 2023</h1>
+<h1 align="center">Flutter Developer Roadmap 2024</h1>
 
 ![alt text](https://github.com/canopas/flutter-developer-roadmap-2023/blob/main/Flutter-developer-roadmap-header-image%20(1).jpeg)
 
